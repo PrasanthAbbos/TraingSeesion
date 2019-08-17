@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="49947" started-at="2019-08-17T09:48:29Z" finished-at="2019-08-17T09:49:19Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="49947" started-at="2019-08-17T09:48:29Z" finished-at="2019-08-17T09:49:19Z">
+      <class name="testcase.TestClass">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:testcase.TestClass@15975490]" name="setExtent" is-config="true" duration-ms="413" started-at="2019-08-17T09:48:29Z" finished-at="2019-08-17T09:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="driverScript()[pri:0, instance:testcase.TestClass@15975490]" name="driverScript" is-config="true" duration-ms="38083" started-at="2019-08-17T09:48:29Z" finished-at="2019-08-17T09:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverScript -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:testcase.TestClass@15975490]" name="Login" duration-ms="3713" started-at="2019-08-17T09:49:07Z" finished-at="2019-08-17T09:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="GenerateReport(org.testng.ITestResult)[pri:0, instance:testcase.TestClass@15975490]" name="GenerateReport" is-config="true" duration-ms="7" started-at="2019-08-17T09:49:11Z" finished-at="2019-08-17T09:49:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TestClass.Login()[pri:0, instance:testcase.TestClass@15975490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+        <test-method status="PASS" signature="registeruser()[pri:1, instance:testcase.TestClass@15975490]" name="registeruser" duration-ms="5814" started-at="2019-08-17T09:49:11Z" finished-at="2019-08-17T09:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeruser -->
+        <test-method status="PASS" signature="GenerateReport(org.testng.ITestResult)[pri:0, instance:testcase.TestClass@15975490]" name="GenerateReport" is-config="true" duration-ms="0" started-at="2019-08-17T09:49:17Z" finished-at="2019-08-17T09:49:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=registeruser status=SUCCESS method=TestClass.registeruser()[pri:1, instance:testcase.TestClass@15975490] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+        <test-method status="PASS" signature="quitdriver()[pri:0, instance:testcase.TestClass@15975490]" name="quitdriver" is-config="true" duration-ms="1400" started-at="2019-08-17T09:49:17Z" finished-at="2019-08-17T09:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitdriver -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testcase.TestClass@15975490]" name="endReport" is-config="true" duration-ms="487" started-at="2019-08-17T09:49:18Z" finished-at="2019-08-17T09:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- testcase.TestClass -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
